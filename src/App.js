@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Usestate from './Components/USESTATE/Usestate';
+import ImportExpport from './Components/IMPORTEXPORT/ImportExpport';
+import { Export } from './Components/IMPORTEXPORT/Export';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Usestate/>
+      <ImportExpport/>
+      <Export/>
     </div>
   );
 }
